@@ -1,0 +1,19 @@
+spring:
+  mvc:
+    throw-exception-if-no-handler-found: true
+    web:
+      resources:
+        add-mappings: false
+  jpa:
+    database: POSTGRESQL
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  datasource:
+    url: jdbc:postgresql://localhost:5432/exemplo-api
+    username: postgres
+    password: Sen@c2023
+    driverClassName: org.postgresql.Driver
+  security:
+    secret: "exemplo-aula-jwt"
+    expiration_time: 5
