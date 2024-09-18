@@ -8,8 +8,11 @@ public class ResponseUtil {
         Map<String, Object> response = new HashMap<>();
         response.put("messages", message);
 
-        System.out.println("Teste GIT 2");
-        System.out.println("Teste GIT 3");
+        System.out.println("Teste GIT");
+        System.out.println("Teste GIT2");
+        System.out.println("Teste GIT3");
+
+
 
         return response;
     }
